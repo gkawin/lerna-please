@@ -1,5 +1,4 @@
 {
-  "name": "lerna-yes-please",
   "workspaces": [
     "packages/*"
   ],
@@ -9,6 +8,5 @@
   "devDependencies": {
     "lerna": "^2.11.0",
     "rimraf": "^2.6.2"
-  },
-  "version": "1.1.0"
+  }
 }

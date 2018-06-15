@@ -9,5 +9,5 @@ gulp
     .task("default", () => {
         return tsProject.src()
             .pipe(tsProject())
-            .js.pipe(gulp.dest(path.resolve("dist")));
+            .js.pipe(gulp.dest(path.resolve(".")));
     })
