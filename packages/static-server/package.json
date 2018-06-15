@@ -1,10 +1,10 @@
 {
   "name": "static-server",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "serve": "gulp",
+    "build": "gulp",
     "start": "node --harmony dist/index.js"
   },
   "author": "g.kawin@live.com<Kawin Glomjai>",
