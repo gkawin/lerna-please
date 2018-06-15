@@ -4,7 +4,9 @@
     "packages/*"
   ],
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "clean": "rimraf dist && lerna clean",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "yarn bootstrap",
     "add": "lerna add "
   },
   "devDependencies": {
