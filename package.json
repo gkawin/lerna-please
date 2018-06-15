@@ -1,9 +1,13 @@
 {
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "clean": "lerna clean"
+  },
+  "engines": {
+    "yarn": "^1.6.0"
   },
   "devDependencies": {
     "lerna": "^2.11.0",

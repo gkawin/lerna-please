@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "g.kawin@live.com",
+  "license": "MIT",
+  "private": true
+}
