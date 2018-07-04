@@ -4,5 +4,18 @@
   "main": "index.js",
   "author": "g.kawin@live.com",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "bin": "out/index.js",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "propcircle-webpack": "^1.0.0"
+  }
 }

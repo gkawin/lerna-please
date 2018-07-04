@@ -1,0 +1,21 @@
+{
+  "name": "propcircle-webpack",
+  "version": "1.0.0",
+  "description": "build core ui by webpack",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "watch": "babel -w src --out-dir lib"
+  },
+  "author": "Kawin Glomjai <g.kawin@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

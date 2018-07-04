@@ -1,0 +1,16 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

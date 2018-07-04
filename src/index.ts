@@ -1,0 +1,1 @@
+import W from 'propcircle-webpack'
